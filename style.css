@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background: #0e0e0e;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+  }
+  
+  .header {
+    background: #1e1e1e;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .header h1 span {
+    color: #07eafa;
+  }
+  
+  .header p {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  .social-icons {
+    margin: 20px 0;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fa0606;
+    font-weight: bold;
+  }
+  
+  .btn {
+    background: #00f0ff;
+    color: #0e0e0e;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background: #00c8cc;
+  }
+  
+  .about, .services, .portfolio, .contact {
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #00f0ff;
+  }
+  
+  .service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    font-size: 13px;
+  }
+  
+  .project-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .project {
+    background: #1e1e1e;
+    padding: 40px;
+    border-radius: 15px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  form textarea {
+    height: 150px;
+  }
+  
+  form button {
+    width: 100%;
+  }
+  
